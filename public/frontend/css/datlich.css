@@ -1,0 +1,568 @@
+
+.form-column {
+    width: 45%;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 1vw;
+    padding: 2vw;
+    width: 70%;
+    margin: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 4vw;
+}
+
+.form-header {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    margin-bottom: 2vw;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 1vw;
+    font-weight: unset;
+    font-size: 1.1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"] {
+    width: 100%;
+    padding: 1vw;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 1vw;
+    line-height: unset;
+    font-size: 1.1em;
+}
+.head th
+{
+    font-size: 1.25em;
+    text-align: center;
+}
+#myTable td
+{
+    font-size: 1.2em;
+}
+
+input[type="checkbox"] {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+input[type="radio"] {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+input[type=button] {
+    border-radius: 1vw;
+    background-color: #003366;
+    padding: 8px;
+    color: white;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-head {
+    text-align: center;
+    background-color: #FCEED5;
+    color: #003366;
+    padding: 10px;
+    margin-bottom: 2vw;
+}
+
+table {
+    width: 98%;
+}
+
+#myTable {
+    text-align: center;
+    padding: 10px;
+    height: 10%;
+    width: 100%;
+}
+
+#myTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#myTable tr {
+    height: 4vw;
+}
+
+.form-add {
+    border: none;
+    background-color: white;
+    margin-left: 1vw;
+}
+
+.form-button {
+    border: none;
+    background-color: white;
+    margin-left: 1vw;
+}
+
+#sub {
+    text-align: center;
+}
+
+#sub input {
+    width: 18vw;
+    font-weight: 700;
+    font-size: 1.3em;
+    border-radius: 30px;
+}
+
+.modal-body1 {
+    padding: 1vw 6vw;
+}
+
+.modal-body2 {
+    padding: 1vw 6vw;
+}
+
+.top {
+    height: fit-content;
+    padding: 2% 3% 0 10%;
+    display: flex;
+    background-color: #FCEED5;
+    width: 100%;
+    display: flex;
+    height: 7vw;
+}
+
+.icon {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--Primary-Color-Dark-Blue, #003459);
+    width: 80%;
+}
+
+#complete {
+    background-color: #003459;
+    color: #FCEED5;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-top: 2vw;
+    padding: 0.5vw 1vw;
+    margin-left: 23%;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.booking {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+#detail-customer {
+    background-color: white;
+    width: 50%;
+    border: 1px solid #CCD1D2;
+    padding: 3vw 6vw;
+}
+
+.title {
+    margin-top: 1vw;
+}
+
+#location,
+#pay {
+    margin-top: 2vw;
+    border: 1px solid #AFAFAF;
+    border-radius: 10px;
+}
+
+.options input[type=radio] {
+    width: 3%;
+    margin: 1vw 2vw;
+}
+
+.options p {
+    margin: 1vw 0;
+    font-size: 18px;
+    font-weight: 400;
+    width: 65%;
+}
+
+.options i {
+    width: 19%;
+    margin: 1vw 0;
+    text-align: center;
+}
+
+#bank p {
+    line-height: 0px;
+    width: 100%;
+    padding: 2vw 1vw 2vw 5vw;
+    margin-bottom: -3vw;
+    font-size: 16px;
+    font-weight: 400;
+    color: #656565;
+}
+
+#bank h6 {
+    padding: 0 0 0 5vw;
+    margin-bottom: -1vw;
+}
+
+#detail-booking {
+    background-color: #F5F5F5;
+    width: 50%;
+    border: 1px solid #CCD1D2;
+    max-height: max-content;
+    padding: 3vw 6vw;
+}
+
+.detail-product {
+    width: 100%;
+    text-align: left;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.product {
+    display: flex;
+}
+
+#error-message {
+    color: red;
+    margin-left: 1vw;
+}
+
+.modal-body1 #head {
+    display: flex;
+    margin-top: 2vw;
+    justify-content: space-between;
+}
+
+.modal-body1 #body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-body1 #foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.modal-body2 #head {
+    display: flex;
+    margin-top: 2vw;
+    justify-content: space-between;
+}
+
+.modal-body2 #body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-body2 #foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.modal-body1 input[type=checkbox] {
+    margin-top: 1.3vw;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+
+.ksan input[type="radio"] {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+
+.modal-header h4 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #003366;
+}
+
+.pls p {
+    font-size: 1em;
+}
+
+.modal-body1 h5 {
+    margin-top: 1vw;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#size {
+    width: 10vw;
+    height: 3vw;
+}
+
+#size-spa {
+    width: 10vw;
+    height: 3vw;
+}
+
+.hotel {
+    display: flex;
+}
+
+.hotel-sz {
+    margin-right: 2vw;
+}
+
+#sz {
+    width: 10vw;
+    height: 3vw;
+}
+
+#size-hotel {
+    width: 10vw;
+    height: 3vw;
+}
+
+input[type=number] {
+    width: 10vw;
+    height: 3vw;
+}
+
+#dash {
+    border: 1px solid rgb(82, 79, 79);
+    opacity: 1;
+    margin: auto;
+}
+
+.calender {
+    padding: 1vw 0;
+    font-size: 1.3em;
+}
+.calender i 
+{
+    margin-right: 1em;
+}
+.calender button
+{
+    margin-top: 1em;
+}
+#dash1 {
+    border: 1px solid rgb(82, 79, 79);
+    opacity: 1;
+    margin: auto;
+    margin: 2vw 0;
+}
+
+.board {
+    width: 95%;
+    margin: auto;
+}
+.board h5
+{
+    font-size: 1em;
+    font-weight: 600;
+}
+.board h4
+{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.quantity-service {
+    float: right;
+}
+
+.total-price {
+    float: right;
+}
+
+.sbox {
+    width: 11vw;
+    height: 3vw;
+}
+
+.modal-body2 h5 {
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.modal-body2 input[type=checkbox] {
+    margin-top: 1.3vw;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+.form-container h3
+{
+    margin: 0;
+    font-weight: 600;
+}
+.form-container p
+{
+    font-size: 1.2em;
+}
+@media only screen and (max-width: 768px) {
+    /* .menu {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    } */
+    .form-container {
+        width: 100%;
+        border: none;
+        margin-bottom: 2vw;
+    }
+    .form-row,.modal-body2 #head {
+        display: unset;
+    }
+    .form-column {
+        width: 100%;
+    }
+    input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
+        width: 100%;
+        padding: 2vw 1vw;
+        border-radius: 1vw;
+        border: 1px solid #ccc;
+        margin-bottom: 1vw;
+    }.form-container h3
+    {
+        font-size: 1.3em;
+    }
+    .calender {
+        padding: 3vw 0;
+    }
+    .modal-body1 #head {
+        display: unset;
+    }
+    #pet
+    {
+        margin-left: 10vw;
+    }
+    .pet
+    {
+        margin-bottom: 3vw;
+    }
+    input[type="date"]
+    {
+        height: 8vw;
+        margin-bottom: 3vw;
+    }
+    .form-container select {
+        padding: 1vw;
+
+    }
+    .modal-body1 #body, .modal-body2 #body {
+        display: unset;
+    }
+    .ksan
+    {
+        margin-top: 2vw;
+    }
+    .ksan, .spa
+    {
+        line-height: 8vw;
+    }
+    .spa input[type=checkbox],.ksan input[type=radio]{
+        margin-right: 3vw;
+    }
+    .modal-body1 #foot , .modal-body2 #foot{
+        display: unset;
+    }
+    .hotel {
+        display: unset;
+    }
+    #size, #sz,input[type=number],#size-spa,#size-hotel  {
+        width: 50%;
+        height: 8vw;
+        margin-bottom: 2vw;
+    }
+    #myTable tr {
+        height: 14vw;
+    }
+    .calender i{
+        margin-right: 4vw;
+    }
+    #sub input {
+        width: unset;
+        padding: 1vw 3vw;
+    }
+    .board h5
+    {
+        margin-bottom: 4vw;
+    }
+}
+.modal {
+    --bs-modal-zindex: 1055;
+    --bs-modal-width: 500px;
+    --bs-modal-padding: 1rem;
+    --bs-modal-margin: 0.5rem;
+    --bs-modal-color: ;
+    --bs-modal-bg: var(--bs-body-bg);
+    --bs-modal-border-color: var(--bs-border-color-translucent);
+    --bs-modal-border-width: var(--bs-border-width);
+    --bs-modal-border-radius: var(--bs-border-radius-lg);
+    --bs-modal-box-shadow: var(--bs-box-shadow-sm);
+    --bs-modal-inner-border-radius: calc(var(--bs-border-radius-lg) - (var(--bs-border-width)));
+    --bs-modal-header-padding-x: 1rem;
+    --bs-modal-header-padding-y: 1rem;
+    --bs-modal-header-padding: 1rem 1rem;
+    --bs-modal-header-border-color: var(--bs-border-color);
+    --bs-modal-header-border-width: var(--bs-border-width);
+    --bs-modal-title-line-height: 1.5;
+    --bs-modal-footer-gap: 0.5rem;
+    --bs-modal-footer-bg: ;
+    --bs-modal-footer-border-color: var(--bs-border-color);
+    --bs-modal-footer-border-width: var(--bs-border-width);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--bs-modal-zindex);
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+.fade {
+    transition: opacity .15s linear;
+}
+.modal.show .modal-dialog {
+    transform: none;
+}
+.modal.fade .modal-dialog {
+    transition: transform .3s ease-out;
+}
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: var(--bs-modal-width);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: auto;
+    pointer-events: none;
+}
+.fade {
+    opacity: 1;
+}

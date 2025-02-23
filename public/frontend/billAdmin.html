@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="library/font-awesome/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/js/bootstrap.js">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styleBill.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <div id="status">
+
+        </div>
+        <form>
+            <div id="search-container">
+                <div type="submit" id="submit"><i class="bi bi-search" id="isearch"></i></div>
+                <input type="search" name="search" id="input_search" placeholder="Search...">
+            </div>
+        </form>
+        <a href="" style="text-decoration-line: none;">
+            <div id="account-admin">
+                <p>Hello</p>
+                <p id="name-admin">Admin</p>
+                <p>!</p>
+            </div>
+        </a>
+    </div>
+    <div style="display: flex;">
+        <div id="menu">
+            <ul id="nav">
+                <li><a href="">Trang chủ</a></li>
+                <li id="action"><a href="">Hóa đơn</a></li>
+                <li><a href="">Khách hàng</a></li>
+                <li><a href="">Đơn hàng</a></li>
+                <li><a href="">Quản lý nhân viên</a></li>
+                <li><a href="">Sản phẩm</a></li>
+                <li><a href="">Quản lý slider</a></li>
+                <li>
+                    <a href="">Lịch hẹn</a>
+                    <ul class="sub-menu" style="width: max-content;">
+                        <li><a href="#" style="margin-left: 1vw;">Danh sách lịch hẹn</a></li>
+                        <li style="margin-bottom: 0;"><a href="#" style="margin-left: 1vw;padding-bottom: 0;">Quản lý
+                                khung
+                                giờ</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Sign out</a></li>
+            </ul>
+        </div>
+        <div id="container">
+                <div class="search">
+                    <button class="search-button" style="height: fit-content;"><strong>Search</strong></button>
+                    <input type="search" class="search-box" placeholder="Search...">
+                </div>
+            <table id="myTable">
+                <tr class="head">
+                    <th style="width:20%;">Số hóa đơn</th>
+                    <th style="width:20%;">Mã khách hàng</th>
+                    <th style="width:20%;">Ngày hóa đơn</th>
+                    <th style="width:20%;">Tổng tiền</th>
+                    <th style="width:10%;">Chi tiết</th>
+                </tr>
+                <tr>
+                    <td class="id-bill">HD01</td>
+                    <td class="id-customer">KH01</td>
+                    <td class="date-bill">22/12/2023 11:30</td>
+                    <td class="total-pay">1000000</td>
+                    <td class="update">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#detailBill" style="background-color:green;height: fit-content;">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="btn btn-block btn-danger" style="height: fit-content;"><i
+                                class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id-bill">HD02</td>
+                    <td class="id-customer">KH02</td>
+                    <td class="date-bill">22/12/2023 11:30</td>
+                    <td class="total-pay">1000000</td>
+                    <td class="update">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#detailBill" style="background-color:green;height: fit-content;">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="btn btn-block btn-danger" style="height: fit-content;"><i
+                                class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id-bill">HD03</td>
+                    <td class="id-customer">KH03</td>
+                    <td class="date-bill">22/12/2023 11:30</td>
+                    <td class="total-pay">1000000</td>
+                    <td class="update">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#detailBill" style="background-color:green;height: fit-content;">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="btn btn-block btn-danger" style="height: fit-content;"><i
+                                class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id-bill">HD04</td>
+                    <td class="id-customer">KH04</td>
+                    <td class="date-bill">22/12/2023 11:30</td>
+                    <td class="total-pay">1000000</td>
+                    <td class="update">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#detailBill" style="background-color:green;height: fit-content;">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="btn btn-block btn-danger" style="height: fit-content;"><i
+                                class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id-bill">HD05</td>
+                    <td class="id-customer">KH05</td>
+                    <td class="date-bill">22/12/2023 11:30</td>
+                    <td class="total-pay">1000000</td>
+                    <td class="update">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#detailBill" style="background-color:green;height: fit-content;">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="btn btn-block btn-danger" style="height: fit-content;"><i
+                                class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id-bill">HD06</td>
+                    <td class="id-customer">KH06</td>
+                    <td class="date-bill">22/12/2023 11:30</td>
+                    <td class="total-pay">1000000</td>
+                    <td class="update">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#detailBill" style="background-color:green;height: fit-content;">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="btn btn-block btn-danger" style="height: fit-content;"><i
+                                class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id-bill">HD07</td>
+                    <td class="id-customer">KH07</td>
+                    <td class="date-bill">22/12/2023 11:30</td>
+                    <td class="total-pay">1000000</td>
+                    <td class="update">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#detailBill" style="background-color:green;height: fit-content;">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="btn btn-block btn-danger" style="height: fit-content;"><i
+                                class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id-bill">HD08</td>
+                    <td class="id-customer">KH08</td>
+                    <td class="date-bill">22/12/2023 11:30</td>
+                    <td class="total-pay">1000000</td>
+                    <td class="update">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#detailBill" style="background-color:green;height: fit-content;">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="btn btn-block btn-danger" style="height: fit-content;"><i
+                                class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id-bill">HD09</td>
+                    <td class="id-customer">KH09</td>
+                    <td class="date-bill">22/12/2023 11:30</td>
+                    <td class="total-pay">1000000</td>
+                    <td class="update">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#detailBill" style="background-color:green;height: fit-content;">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="btn btn-block btn-danger" style="height: fit-content;"><i
+                                class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="id-bill">HD10</td>
+                    <td class="id-customer">KH10</td>
+                    <td class="date-bill">22/12/2023 11:30</td>
+                    <td class="total-pay">1000000</td>
+                    <td class="update">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#detailBill" style="background-color:green;height: fit-content;">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="btn btn-block btn-danger" style="height: fit-content;"><i
+                                class="bi bi-trash"></i></button>
+                    </td>
+                </tr>
+            </table>
+            <div class="modal fade" id="detailBill" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Thông tin hóa đơn</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div id="detail-infor">
+                                    <ul>
+                                        <li>
+                                            <h5>Tên khách hàng: </h5>
+                                            <p id="deatil-customerName">Nguyễn Dương Tùng</p>
+                                        </li>
+                                        <li>
+                                            <h5>Địa chỉ: </h5>
+                                            <p id="address">
+                                                Số 6, Tân Lập, Đông Hòa, Dĩ An, Bình Dương</p>
+                                        </li>
+                                        <li>
+                                            <h5>Ngày hóa đơn: </h5>
+                                            <p id="date-bill">22/02/2024</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <hr style="border:1px solid rgb(64, 64, 64);">
+                                <h4 id="title-table">Chi tiết hóa đơn</h4>
+                                <table id="detail-product">
+                                    <tr>
+                                        <th style="width: 30%;">
+                                            <p>Tên sản phẩm</p>
+                                        </th>
+                                        <th style="width: 15%;">
+                                            <p>Phân loại</p>
+                                        </th>
+                                        <th style="width: 15%;">
+                                            <p>Giá</p>
+                                        </th>
+                                        <th style="width: 13%;">
+                                            <p>Số lượng</p>
+                                        </th>
+                                        <th style="width: 15%;">
+                                            <p>Tổng tiền</p>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="name-product">Thức ăn cho chó</p>
+                                        </td>
+                                        <td>
+                                            <p class="classify">Vị bò rau củ</p>
+                                        </td>
+                                        <td>
+                                            <p class="price">100000 </p>
+                                        </td>
+                                        <td>
+                                            <p class="quantity-product"> 3 </p>
+                                        </td>
+                                        <td>
+                                            <p class="total-price">300000</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="name-product">Pate thùng lớn</p>
+                                        </td>
+                                        <td>
+                                            <p class="classify">Vị bò</p>
+                                        </td>
+                                        <td>
+                                            <p class="price">160000</p>
+                                        </td>
+                                        <td>
+                                            <p class="quantity-product"> 1 </p>
+                                        </td>
+                                        <td>
+                                            <p class="total-price">160000</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="name-product">Nhà thú cưng màu xám</p>
+                                        </td>
+                                        <td>
+                                            <p class="classify">Size XXL</p>
+                                        </td>
+                                        <td>
+                                            <p class="price">300000</p>
+                                        </td>
+                                        <td>
+                                            <p class="quantity-product"> 1 </p>
+                                        </td>
+                                        <td>
+                                            <p class="total-price">300000</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="name-product">Combo sữa tắm cho chó</p>
+                                        </td>
+                                        <td>
+                                            <p class="classify"></p>
+                                        </td>
+                                        <td>
+                                            <p class="price">200000</p>
+                                        </td>
+                                        <td>
+                                            <p class="quantity-product"> 1 </p>
+                                        </td>
+                                        <td>
+                                            <p class="total-price">200000</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5">
+                                            <table id="style-table" style="width: 50%;float: right; border: none;">
+                                                <tr>
+                                                    <td>
+                                                        <p>Tổng cộng</p>
+                                                    </td>
+                                                    <td>
+                                                        <p id="total">960000</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Phí vận chuyển</p>
+                                                    </td>
+                                                    <td>
+                                                        <p id="fee-transfer">40000</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h3>Tổng</h3>
+                                                    </td>
+                                                    <td>
+                                                        <h3 class="total-pay">1000000</h3>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example" id="page">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        const totalPay = document.getElementsByClassName('total-pay');
+        const totalPrice = document.getElementsByClassName('total-price');
+        const price = document.getElementsByClassName('price');
+        function formatPrice(price) {
+            return price.toLocaleString('en-US', {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0,
+            });
+        }
+        for (let i = 0; i < totalPay.length; i++) {
+            const originalValue = parseInt(totalPay[i].textContent);
+            const price = formatPrice(originalValue);
+            totalPay[i].textContent = price;
+        }
+        for (let i = 0; i < totalPrice.length; i++) {
+            const originalValue = parseInt(totalPrice[i].textContent);
+            const price = formatPrice(originalValue);
+            totalPrice[i].textContent = price;
+        }
+        for (let i = 0; i < price.length; i++) {
+            const originalValue = parseInt(price[i].textContent);
+            const price1 = formatPrice(originalValue);
+            price[i].textContent = price1;
+        }
+        const totalPro = document.getElementById("total");
+        const total = totalPro.textContent;
+        const formattedNumber = Number(total).toLocaleString();
+        totalPro.textContent = formattedNumber;
+        //
+        const TransFee = document.getElementById("fee-transfer");
+        const fee = TransFee.textContent;
+        const formatted = Number(fee).toLocaleString();
+        TransFee.textContent = formatted;
+        document.getElementById('status').innerHTML = '<h3>Hóa đơn</h3>'
+        //
+        var date = new Date();
+        var curDate = String(date.getDate()).padStart(2, '0');
+        var curMonth = String(date.getMonth() + 1).padStart(2, '0');
+        var curYear = date.getFullYear();
+        var curHours = date.getHours();
+        var curMinutes = String(date.getMinutes()).padStart(2, '0');
+        document.getElementById('current-time').innerHTML = curDate + "/" + curMonth + "/" + curYear + " " + curHours + ":" + curMinutes;
+    </script>
+
+</html>

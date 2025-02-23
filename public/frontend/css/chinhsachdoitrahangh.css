@@ -1,0 +1,65 @@
+h1 {
+    font-size: 2em;
+    margin-bottom: 5vw;
+}
+
+ul {
+    font-size: 1em;
+}
+
+li {
+    margin-bottom: 2vw;
+}
+h5
+{
+    margin-bottom: 2vw;
+}
+h6
+{
+    font-size: 1.1em;
+}
+#riengtu p,img
+{
+    margin-left: 2vw;
+}
+img
+{
+    width: 40%;
+    margin-bottom: 2vw;
+}
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    }
+
+    ul {
+        padding: 2vw 4vw;
+    }
+
+    h5 {
+        font-size: 1.2em;
+        padding: 0 4vw;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 5vw;
+    }
+    #riengtu p,img
+{
+    margin-left: 3vw;
+}
+    img
+    {
+        width: 90%;
+        margin-bottom: 5vw;
+    }
+}

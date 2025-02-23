@@ -1,0 +1,176 @@
+
+.column .contents {
+    background: #FCEED5;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 1vw;
+    width: 28%;
+}
+
+.column .comn {
+    background-color: #003459;
+    color: #f0f0f0;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2vw;
+}
+
+.column .conner {
+    background: rgb(237, 237, 187);
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2vw;
+}
+
+.review-section {
+    background-color: #FDFDFD;
+    color: black;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.star-rating {
+    color: #ffce1b;
+}
+.card-detail p
+{
+    font-size: 1.1em;
+}
+.product-card1, .product-card2 , .product-card3 , .product-card4 , .product-card5 , .product-card6 {
+    position: relative;
+    border-radius: 10px;
+    width: 31%;
+    display: inline-block;
+    text-align: center;
+    padding: 1vw;
+}
+.card-info p
+{
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 0.5vw;
+}
+.card-info,
+.card-detail {
+    padding: 1.5vw;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    height: 30em;
+}
+
+.card-detail {
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    transition: opacity 0.3s ease-in-out;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+.show-details .card-info {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.show-details .card-detail {
+    opacity: 1;
+    pointer-events: auto;
+}
+.chi-tiet
+{
+    margin-top: 1vw;
+    background-color: #103559;
+    color: #FCEED5;
+    padding: 0.5vw 2vw ;
+    border-radius: 2vw;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.gia
+{
+    color: #003459;
+    margin-top: 1vw;
+    background-color:#f0f0f000;
+    padding: 0.5vw 2vw ;
+    border-radius: 2vw;
+    font-size: 1.2em;
+    border: none;
+    text-decoration-line: underline;
+}
+
+.form-container .contain .banner p li {
+    font-size: 1.2vw;
+}
+.banner {
+    background-color: #003459;
+    color: #f0f0f0;
+    padding: 0 2vw 2vw 2vw;
+}
+ hr{
+
+    border: 1px solid black;
+    opacity: 5;
+}
+.menu-hotel
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.voucher
+{
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 2vw;
+}
+.banner1 {
+    background-color: #003459;
+    color: #f0f0f0;
+    padding: 0 2vw 1.5vw 2vw;
+    border-radius: 8px;
+    height: unset;
+}
+@media only screen and (max-width: 768px) {
+.product-card1, .product-card2, .product-card3, .product-card4, .product-card5, .product-card6 {
+    position: relative;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.column {
+    display: unset;
+}
+.column .contents {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1em;
+    line-height: 1em;
+}
+.chi-tiet {
+    margin-top: 1vw;
+    background-color: #FCEED5;
+    color: #003459;
+    padding: 0.5vw 2vw;
+    border-radius: 4vw;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.card-info, .card-detail {
+    height: 36em;
+}
+}

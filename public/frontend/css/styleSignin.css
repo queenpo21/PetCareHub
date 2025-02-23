@@ -1,0 +1,288 @@
+#title-header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 30%;
+    margin-top: 5vw;
+}
+
+#title-header a {
+    font-size: 1.4em;
+    font-weight: 700;
+    text-decoration-line: none;
+    color: var(--Primary-Color-Dark-Blue, #003459);
+    ;
+}
+
+#title-header a:hover {
+    text-decoration-line: underline;
+}
+
+#title-header a:active {
+    text-decoration-line: underline;
+}
+
+#infor-customer {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 2vw;
+}
+
+#infor-customer input[type=text],
+input[type=password],
+input[type=date],
+input[type=tel],
+input[type=email] {
+    width: 100%;
+    padding: 1vw 1.5vw;
+    border: 1px solid #afafaf;
+    border-radius: 4px;
+    font-size: 1.1em;
+}
+
+#infor-customer p {
+    margin-bottom: -1px;
+    margin-top: 2vw;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#infor-customer #forgot-password {
+    padding-top: 1vw;
+}
+
+#forgot-password a {
+    color: #003459;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#infor-customer #submitt {
+    width: max-content;
+    text-align: center;
+    padding: 0.2em 1em;
+    background-color: var(--Primary-Color-Dark-Blue, #003459);
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: 700;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 2vw;
+    display: flex;
+}
+#frame {
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 3vw;
+    text-align: center;
+    padding: 1vw 2vw 2vw 2vw;
+    margin-bottom: 3vw;
+}
+#frame h2 {
+    color: var(--Primary-Color-Dark-Blue, #003459);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#frame input[type=submit] {
+    width: max-content;
+    padding: 0.5vw 2vw;
+    background-color: white;
+    background-color: white;
+    color: var(--Primary-Color-Dark-Blue, #003459);
+    font-size: 1.3em;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 2vw;
+    margin-left: 7vw;
+}
+
+#frame input[type=submit] {
+    width: max-content;
+    text-align: center;
+    padding: 0.2em 1em;
+    background-color: var(--Primary-Color-Dark-Blue, #003459);
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: 700;
+    border-radius: 25px;
+    margin-top: 2vw;
+    margin-left: 0;
+}
+
+#frame input[type=text],
+#email-cus {
+    width: 100%;
+    padding: 1vw 1.5vw;
+    border: 1px solid #afafaf;
+    border-radius: 4px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#frame #new-password,
+#confirm-password {
+    height: 2.5em;
+}
+
+#frame h5 {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.set-active {
+    text-decoration: none;
+}
+
+.set-active.active {
+    text-decoration: underline;
+}
+
+.sty-pass {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+.sty-pass p {
+    width: 20em;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0;
+}
+ hr {
+    width: 35%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 1vw;
+    opacity: 1;
+}
+#title-header .active
+{
+    text-decoration-line: underline;
+}
+@media only screen and (max-width: 768px) {
+    /* .menu {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    } */
+
+    #frame {
+        width: 100%;
+        border: none;
+        height: 30em;
+    }
+    #frame form{
+        margin-top: 5em;
+    }
+    #frame p{
+        margin-bottom: 2em;
+    }
+
+    #frame h5 {
+        margin-top: -1em;
+    }
+
+    #sub {
+        margin-top: 1em;
+    }
+
+    #frame input[type=text],
+    #email-cus {
+        padding: 1.5vw 1.5vw;
+    }
+
+    #frame h2 {
+        color: var(--Primary-Color-Dark-Blue, #003459);
+        font-size: 1.3em;
+    }
+
+    #frame table {
+        width: 100%;
+        margin: auto;
+    }
+
+    .sty-pass {
+        width: 100%;
+        display: unset;
+    }
+
+    #frame #new-password,
+    #confirm-password {
+        height: 2.5em;
+        margin-bottom: 0.5em;
+    }
+
+    #title-header {
+        width: 50%;
+    }
+
+    hr {
+        width: 80%;
+        margin-top: 1em;
+    }
+    #title-header a {
+        font-size: 1.2em;
+    }
+    #infor-customer {
+        width: 100%;
+        margin-top: 1.5em;
+    }
+    #infor-customer input[type=text], input[type=password], input[type=date], input[type=tel], input[type=email] {
+        width: 100%;
+        padding: 0.6em 0.5em;
+        border: 1px solid #AFAFAF;
+        border-radius: 4px;
+        font-size: 1.1em;
+    }
+    #infor-customer p
+    {
+        margin: 0.5em 0;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1050px){
+    #title-header {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 50%;
+        margin-top: 5vw;
+    }
+    hr {
+        width: 60%;
+    }
+    #infor-customer {
+        width: 55%;
+    }
+    #frame {
+        width: 90%;
+    }
+    #submittSigin{
+        width: max-content;
+        text-align: center;
+        padding: 0.2em 1em;
+        background-color: var(--Primary-Color-Dark-Blue, #003459);
+        color: #ffffff;
+        font-size: 1.3em;
+        font-weight: 700;
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 2vw;
+        display: flex;
+    }
+}

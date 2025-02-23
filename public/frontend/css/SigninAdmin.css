@@ -1,0 +1,59 @@
+#title-header a
+{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #003459;
+}
+#title-header 
+{
+    width: 15em;
+    text-align: center;
+    margin: auto;
+    margin-top: 3em;
+}
+#infor-customer
+{
+    width: 30em;
+    margin: auto;
+    margin-top: 1em;
+}
+#infor-customer p
+{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 1em;
+}
+#infor-customer input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    padding: 1vw 1.5vw;
+    border: 1px solid #afafaf;
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+#infor-customer #forgot-password {
+    padding-top: 1vw;
+}
+
+#forgot-password a {
+    color: #003459;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+#infor-customer #submit {
+    width: max-content;
+    text-align: center;
+    padding: 0.2em 1em;
+    background-color: var(--Primary-Color-Dark-Blue, #003459);
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: 700;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 2vw;
+    display: flex;
+    margin-bottom: 3em;
+}

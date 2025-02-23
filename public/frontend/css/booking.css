@@ -1,0 +1,287 @@
+.header {
+    height: fit-content;
+    padding: 2% 6vw 0 6vw;
+    background-color: #FCEED5;
+    height: 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header i {
+    font-size: 1.6vw;
+}
+
+.logo {
+    text-align: left;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: var(--Primary-Color-Dark-Blue, #003459);
+    width: 80%;
+}
+
+#complete {
+    background-color: #003459;
+    color: #FCEED5;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-top: 2vw;
+    padding: 0.5vw 1vw;
+    margin: auto;
+    display: flex;
+}
+
+h5,
+h3 {
+    padding: 0.5vw 0;
+}
+
+h3,h4 {
+    font-size: 1.6em;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.booking {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+#detail-customer {
+    background-color: white;
+    width: 50%;
+    border: 1px solid #CCD1D2;
+    padding: 3vw 6vw;
+}
+
+.title {
+    margin-top: 1vw;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#location,
+#pay {
+    margin-top: 2vw;
+    border: 1px solid #AFAFAF;
+    border-radius: 10px;
+}
+
+.options input[type=radio] {
+    width: 3%;
+    margin: 1vw 2vw;
+}
+
+.options p {
+    margin: 1vw 0;
+    font-size: 1.1em;
+    font-weight: 400;
+    width: 65%;
+}
+
+.options i {
+    width: 19%;
+    margin: 1vw 0;
+    text-align: center;
+}
+
+input[type=text],
+input[type=tel] {
+    width: 100%;
+    padding: 1vw;
+    border-bottom: 1px solid #AFAFAF;
+    border-radius: 10px;
+    font-size: 1.1em;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#bank p {
+    line-height: 0px;
+    width: 100%;
+    padding: 2vw 1vw 2vw 5vw;
+    margin-bottom: -3vw;
+    font-size: 1em;
+    font-weight: 400;
+    color: #656565;
+}
+
+#bank h6 {
+    padding: 0 0 0 5vw;
+    margin-bottom: -1vw;
+}
+
+#detail-booking2 {
+    background-color: #F5F5F5;
+    width: 50%;
+    border: 1px solid #CCD1D2;
+    max-height: max-content;
+    padding: 3vw 6vw;
+}
+#detail-booking1 {
+    margin-bottom: 4vw;
+}
+.detail-product {
+    width: 100%;
+    text-align: left;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.product {
+    display: flex;
+}
+
+#error-message {
+    color: red;
+    margin-left: 1vw;
+}
+
+.transaction h4 {
+    margin-top: 2vw;
+}
+
+.transaction p {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #656565;
+}
+
+.column {
+    display: flex;
+}
+
+.column1 {
+    width: 75%;
+}
+
+#quantity {
+    text-align: end;
+    width: 75%;
+}
+
+.pro-price {
+    text-align: end;
+    width: 25%;
+}
+
+.classify {
+    margin-left: 2vw;
+}
+
+.quantity {
+    margin-left: 2vw;
+}
+
+.total-price {
+    margin-top: 2vw;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+hr {
+    border: 1px solid #656565;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+
+.bill {
+    margin-top: 2vw;
+    color: #003459;
+}
+#city, #district, #ward, #address
+{
+    width: 100%;
+    padding: 1vw;
+    border-bottom: 1px solid #AFAFAF;
+    border-radius: 10px;
+    font-size: 1.1em;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+#ward
+{
+    margin-bottom: 2vw;
+}
+/* responsive */
+@media only screen and (max-width: 768px) {
+    .booking {
+        display: unset;
+    }
+
+    #detail-customer,
+    #detail-booking {
+        width: 100%;
+    }
+
+    #detail-booking1 {
+        margin-top: 7vw;
+        border-top: 1px solid #AFAFAF;
+        padding: 3vw 0;
+    }
+
+    #detail-booking2 {
+        display: none;
+    }
+
+    .header {
+        height: unset;
+    }
+
+    .header i {
+        font-size: 4vw;
+    }
+
+    .logo {
+        text-align: left;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    h3,h4 {
+        font-size: 1.3em;
+    }
+    #bank p {
+        line-height: unset;
+    }
+    #bank
+    {
+        margin-left: 1vw;
+        margin-top: 2vw;
+    }
+    .options
+    {
+        padding: 2vw 0;
+        align-items: center;
+        font-size: 1em;
+    }
+    .options i {
+        display: none;
+    }
+    h5
+    {
+        font-size: 1.2em;
+    }
+    .title {
+        font-size: 1em;
+    }
+    input[type=text], input[type=tel] {
+        font-size: 1em;
+    }
+    #city, #district, #ward, #address
+    {
+        font-size: 1em;
+    }
+    .total-price {
+        margin-top: 2vw;
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+}

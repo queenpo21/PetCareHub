@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS cho menu */
+        #menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 1em;
+        }
+
+        #nav {
+            display: flex;
+            gap: 1em;
+        }
+
+        #nav li {
+            list-style: none;
+        }
+
+        #nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* CSS cho nút nhấn menu mobile */
+        #menu-button {
+            display: none;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1.5em;
+        }
+
+        /* Hiển thị nút nhấn menu khi màn hình là mobile */
+        @media (max-width: 768px) {
+            #nav {
+                display: none;
+                flex-direction: column;
+                background-color: #444;
+                padding: 1em;
+            }
+
+            #menu-button {
+                display: block;
+            }
+        }
+
+        #nav.show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        <ul id="nav">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Hóa đơn</a></li>
+            <!-- Thêm các mục khác vào đây -->
+        </ul>
+        <div id="menu-button" onclick="toggleMenu()">☰</div>
+    </div>
+
+    <!-- Thêm nội dung trang web khác vào đây -->
+</body>
+<script>
+    function toggleMenu() {
+        const nav = document.getElementById('nav');
+        nav.classList.toggle('show');
+    }
+
+</script>
+
+</html>

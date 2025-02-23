@@ -1,0 +1,200 @@
+#container
+{
+    background-color: #fff;
+}
+
+table {
+    width: 100%;
+    margin: 1vw 0vw;
+}
+table,th,td {
+    padding: 5px;
+    text-align: center;
+    height: 10%;
+}
+
+.add-employee-button {
+    background-color: #103559;
+    color: #fff;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 1vw;
+    width: 15vw;
+    font-size: 1.2em;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.search {
+    display: flex;
+    justify-content: right;
+    height: fit-content;
+    margin-right: 1vw;
+    margin-right: 1vw;
+}
+
+.search-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 20vw;
+    font-size: 0.8em;
+}
+
+.search-button {
+    color: darkblue;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+}
+
+.search-button:hover {
+    text-decoration: underline;
+}
+
+.head {
+    background-color:#FFF4DE;
+    height: 4vw;
+}
+tr:nth-child(even) {
+    background-color: #00345944
+}
+  .pagination a
+  {
+    border: none;
+  }
+  .search-contain {
+    display: flex;
+    justify-content:center;
+
+}
+.sbox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    font-size: 0.8em;
+}
+.sbutton {
+    color:darkblue;
+    background-color:#D9D7D7;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+}
+.sbutton:hover {
+    text-decoration: underline;
+}
+#style-link {
+    margin-left: 2vw;
+}
+#style-link a {
+    text-decoration-line: none;
+    color: #667479;
+}
+#style-link a:hover {
+    text-decoration-line: underline;
+}
+#myTable img {
+    width: 70%;
+}
+/* css datatable */
+.row, .mt-2, .justify-content-between
+{
+    width: 98%;
+    margin-left: 0.3vw;
+}
+.dt-search
+{
+    display: flex;
+}
+.dt-search label
+{
+    margin-right: 1vw;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #103559;
+}
+.dt-search input
+{
+    font-size: 1.1em;
+}
+.dt-length
+{
+    display: flex;
+    width: 30vw;
+    color: #667479;
+}
+.modal-body input[type=number], input[type=text]
+{
+    margin: 0;
+    padding: .375rem .75rem;
+}
+
+.form-group button
+{
+    display: block;
+    margin: 0.5em 0;
+}
+.form-select ,.form-select-sm
+{
+    width: 10vw;
+    margin-right: 1vw;
+}
+.col-md-auto , .me-auto
+{
+    width: 20vw;
+}
+thead .dt-column-title
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: black;
+}
+tfoot .dt-column-title
+{
+    font-size: 0.9em;
+}
+tbody td
+{
+    font-size: 1em;
+}
+.pagination
+{
+    margin-left: 6vw;
+}
+.pagination a
+{
+    font-size: 1em;
+}
+
+#myTable #status
+{
+    margin-left: 0;
+    width: 9em;
+    font-size: 1.1em;
+    padding: 0.2em 0.3em;
+    margin-top: -0.15em;
+    text-align: center;
+}
+.active>.page-link, .page-link.active
+{
+    background-color: #ffe9bd;
+    color: black;
+}
+.disabled>.page-link, .page-link.disabled
+{
+    background-color: #fffaf1;
+}
+#myTable_info
+{
+    visibility: hidden;
+}
+.dt-length label
+{
+    font-size: 1em;
+    margin-top: 0.4vw;
+}
+.dt-length select
+{
+    font-size: 1em;
+}
